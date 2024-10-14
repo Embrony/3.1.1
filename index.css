@@ -26,7 +26,7 @@ body {
 	width:50%;
 	height:50%;
 }
-.icon-container__icon{
+.icon-container__icon svg {
 	width:100%;
 	height:100%;
 }
@@ -191,7 +191,7 @@ p {
         order: 2;
     }
 
-    .content__img_foto{
+    .content__img_foto {
         display: flex;
         width: 360px;
         height: 208px;
@@ -265,9 +265,8 @@ p {
     .content__img_foto {
         top: 179px;
         left: 561px;
-        height: 208px;
-        width: 360px;
-        
+        height: 307px;
+        width: 531.35px;
     }
 
     .header__menu {
@@ -309,9 +308,9 @@ p {
         letter-spacing: 0.2px;
     }
 
-    .content__img_foto {
-        width: 531.35px;
-        height: 307px;
+    .content__img_foto img {
+        width: 531px;
+        max-width: 650px;
     }
 
     .icon_next {
